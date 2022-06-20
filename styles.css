@@ -3,12 +3,13 @@ body{
 }
 h1 {
     color: #025157;
-    font-size:3em;
+    font-family: "Pangolin", cursive;
+    font-size: 3rem;
     text-align: center;
   }
   p{
       font-family: Verdana;
-      font-size: 20px;
+      font-size: 1.25rem;
       text-align: center;
   }
   button{
@@ -16,31 +17,34 @@ h1 {
       background-color: #025157;
   }
   form{
-      text-align: center;
+    width: 40%;
+    margin: auto;
     }
 
 .main {
-    margin-top: 140px;
+    margin-top: 8.75rem; /* 140px */
     text-align: center;
     }
 
 header {
-        margin: 40px 20px 0;
+        margin: 2.5rem 1.25rem 0; /* 40px 20px */
         font-size: 0;
         font-family: sans-serif;
-        height: 45px;
+        height: 2.8125 rem ;  /* 45px */
       }
 
 header > *{
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
 }
 
-li {
+.menu-items > li {
         display: inline;
+        margin-right: 25px;
+        margin-left: 25px;
       }
 
 .logo {
@@ -74,4 +78,40 @@ width: 15%;
     padding: 12px 14px;
     border: 0;
     border-radius: 5px;
+  }
+
+  input, button {
+    max-width: 250px;
+    height: 100%;
+}
+
+form{
+  display: inline;
+}
+
+.insert, .submit {
+  font-size: 0.9 rem;
+  padding: 1em 5em;
+  border: 2px solid  #8b8b8bcc;
+}
+
+.insert{
+  border-radius: 5px 0 0 5px;
+}
+
+.submit{
+  border-radius: 0 5px 5px 0;
+  margin-left: -8px;
+}
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img.logo{
+    max-width: 40%;
+  }
+  img.graph{
+    max-width: 60%;
   }
