@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Raleway&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section class="main">
-      <header>
+    <section class="fixed-header">
+      <header class="header">
         <!--Regresar a la página principal-->
         <a href="/" class="logo">
           <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="matcha logo" style="width:50px;">
@@ -29,14 +29,16 @@
             <li>Resources</li>
           </ul>
         </nav>
+
         <!--Acciones-->
         <div class="actions">
           <a href="">Sign in</a>
           <button type="button">Get a demo</button>
         </div>
       </header>
-      
+    </section>
 
+      <section class="main"></section>
       <!-- Esto es lo que se verá en el navegador web -->
       <h1>Build your blog, build your business.</h1>
       <p style="color:#46484c;text-align: center;">
@@ -47,12 +49,42 @@
         <input type="email" class="insert" placeholder="Enter email adress" />
         <button type="submit" class="submit">Try it now &rarr;</button>
       </form>
-      <p style="color:#8b8b8bcc;">
+      <p style="color:#8b8b8bcc;text-align: center;">
         Start publishing today with a <b>free 7-day trial. <br>
           No credit card required.</b>
       </p>
       <img class="logo" src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="logo-capterra">
       <img class="graph" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="gráficos-capterra">
+  </section>
+
+  <section class="adds">
+    <article class="explanatory-video">
+      <video controls poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg" >
+        <!-- </video> src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" -->
+        <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+        type="video/webm">
+        <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+        type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p style="color:#8b8b8bcc;">SEE HOW IT WORKS</p>
+        <img src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
+        alt="See how it works">
+    </article>
+  <!-- Contenido publicitario -->
+    <article class="publish">
+      <h2>Publish to your blog in minutes, not hours.</h2>
+      <p style="color:#343434;text-align: justify;">Your blog is your most powerful asset to build, engage, and retain a loyal audience. 
+        But you don’t have hours to create content that may or may not work. 
+        With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.</p>
+        <p style="color:#025157; text-align: left;">
+          Start publishing today:
+        </p>
+        <form>
+          <input type="email" class="insert" placeholder="Enter email" />
+          <button type="submit" class="submit">Start my trial</button>
+        </form>
+    </article>
   </section>
   </body>
 </html>

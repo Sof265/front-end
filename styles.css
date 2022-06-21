@@ -7,30 +7,43 @@ h1 {
     font-size: 3rem;
     text-align: center;
   }
+h2 {
+  color: #025157;
+  font-family: "Pangolin", cursive;
+  font-size: 2rem;
+}
   p{
       font-family: Verdana;
       font-size: 1.25rem;
-      text-align: center;
   }
   button{
       color: #fff;
       background-color: #025157;
   }
   form{
-    width: 40%;
+    max-width: fit-content;
     margin: auto;
+    display: flex;
     }
 
 .main {
-    margin-top: 8.75rem; /* 140px */
+    margin-top: 8rem; /* 285px */
     text-align: center;
     }
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
 
 header {
         margin: 2.5rem 1.25rem 0; /* 40px 20px */
         font-size: 0;
         font-family: sans-serif;
-        height: 2.8125 rem ;  /* 45px */
+        height: 2.8125rem ;  /* 45px */
       }
 
 header > *{
@@ -38,7 +51,7 @@ header > *{
     font-size: 1rem;
     vertical-align: middle;
     height: 100%;
-    line-height: 45px;
+    line-height: 2.8125rem;
 }
 
 .menu-items > li {
@@ -80,18 +93,10 @@ width: 15%;
     border-radius: 5px;
   }
 
-  input, button {
-    max-width: 250px;
-    height: 100%;
-}
-
-form{
-  display: inline;
-}
-
 .insert, .submit {
-  font-size: 0.9 rem;
-  padding: 1em 5em;
+  padding: 1rem 1.2rem;
+  height:max-content;
+  width: max-content;
   border: 2px solid  #8b8b8bcc;
 }
 
@@ -100,8 +105,9 @@ form{
 }
 
 .submit{
+  white-space: nowrap;
   border-radius: 0 5px 5px 0;
-  margin-left: -8px;
+  margin-left: -0.5em;
 }
 
   img{
@@ -115,3 +121,25 @@ form{
   img.graph{
     max-width: 60%;
   }
+
+  .adds{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+.publish{
+  margin-left: 1.5rem;
+}
+
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 7.5rem;
+  margin-top: 0.2em;
+}
